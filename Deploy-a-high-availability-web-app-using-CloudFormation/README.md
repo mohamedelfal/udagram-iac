@@ -50,7 +50,7 @@ Services stack outputs the final website `URL`.
 
 - [infrastructure-diagram-Lucidchart.png](./infrastructure-diagram-Lucidchart.png) - infrastructure diagram
 - [`ELB-AutoScaling-VPC.template`](./ELB-AutoScaling-VPC.template) - elastic load balancer auto scaling group example
-- [`network.yaml`](./) - CloudFormation network infrastructure stack description.
+- [`network.yaml`](./network.yaml) - CloudFormation network infrastructure stack description.
 - [`network-parameters.json`](./network-parameters.json) - Parameters file for the network infrastructure stack
 - [`services.yaml`](./services.yaml) - CloudFormation services infrastructure stack description
 - [`services-parameters.json`](./services-parameters.json) - Parameters file for the services infrastructure stack
