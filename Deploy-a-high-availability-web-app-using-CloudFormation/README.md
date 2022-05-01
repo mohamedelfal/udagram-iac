@@ -40,7 +40,7 @@ run-networks.sh create
 
 2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
 
-```bash
+```shell
 run-services.sh create
  ```
  
