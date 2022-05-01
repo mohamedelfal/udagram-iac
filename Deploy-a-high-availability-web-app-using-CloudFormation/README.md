@@ -7,7 +7,10 @@
 * [Architecture](#architecture)
 * [Running The Project](#running-the-project)
 * [Output](#output)
+* [Web App Url](#web-app-url)
+* [Screenshot](#screenshot)
 * [Files Included](#files-included)
+* [GitHub Link](#github-link)
 
 
 ## Starter Code
@@ -68,17 +71,25 @@ Or:
 ```
 
 ### Output
-Services stack outputs the final website `URL`.
+Services stack outputs the final website [`URL`](http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html).
+
+# Web App Url
+http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
+
+## Screenshot
+![udagram Page.jpg](./udagram%20Page.jpg)
+
 
 ### Files included:
 
-- [infrastructure-diagram-Lucidchart.png](./infrastructure-diagram-Lucidchart.png) - infrastructure diagram
 - [`network.yaml`](./network.yaml) - CloudFormation network infrastructure stack description.
 - [`network-parameters.json`](./network-parameters.json) - Parameters file for the network infrastructure stack
 - [`services.yaml`](./services.yaml) - CloudFormation services infrastructure stack description
 - [`services-parameters.json`](./services-parameters.json) - Parameters file for the services infrastructure stack
 - [`run-networks.sh`](./run-networks.sh) - bash script for managing network infrastructure stack
 - [`run-services.sh`](./run-services.sh) - bash script for managing services infrastructure stack
-
-# Url
-http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
+- [infrastructure-diagram-Lucidchart.png](./infrastructure-diagram-Lucidchart.png) - infrastructure diagram
+- [work progress screenshots](./work%20progress) - Screenshots for work progress
+- [final website screenshot](./udagram%20Page.jpg) - Screenshot for Udagram app website
+## GitHub Link
+https://github.com/mohamedelfal/Udacity-Advanced-Cloud-DevOps/
