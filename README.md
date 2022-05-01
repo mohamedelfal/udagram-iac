@@ -36,8 +36,7 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 ```shell
 run-networks.sh create
 ```
-2. Upon step 1 successful completion, execute services infrastructure stack  
-Usage: 
+2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
 
 ```bash
 services.yaml create
