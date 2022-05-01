@@ -34,37 +34,37 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 
 1. To Execute network infrastructure stack Usage:
 ```shell
-run-networks.sh create
+./run-networks.sh create
 ```
 
 
 2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
 
 ```shell
-run-services.sh create
+./run-services.sh create
  ```
  
  3. To Update network infrastructure stack Usage:
  
 ```shell
-run-networks.sh update
+./run-networks.sh update
 ```
 4. To Update services infrastructure stack Usage:
 
 ```shell
-run-services.sh update
+./run-services.sh update
 ```
 
 5. To Delete Stack Usage:
 
 ```shell
-run-networks.sh delete
+./run-networks.sh delete
 ```
 
 Or:
 
 ```shell
-run-services.sh delete
+./run-services.sh delete
 ```
 
 ### Output
@@ -79,3 +79,6 @@ Services stack outputs the final website `URL`.
 - [`services-parameters.json`](./services-parameters.json) - Parameters file for the services infrastructure stack
 - [`run-networks.sh`](./run-networks.sh) - bash script for managing network infrastructure stack
 - [`run-services.sh`](./run-services.sh) - bash script for managing services infrastructure stack
+
+# Url
+http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html

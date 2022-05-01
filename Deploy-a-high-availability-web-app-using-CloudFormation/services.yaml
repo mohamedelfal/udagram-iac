@@ -21,7 +21,7 @@ Parameters:
   WebServerImageId:
     Description: Web serve image id
     Type: String
-    Default: ami-00a54827eb7ffcd3c # Ubuntu Server 18.04 LTS
+    Default: ami-005de95e8ff495156 # Ubuntu Server 18.04 LTS
 
   WebServerVolumeSize:
     Description: Web server disk volume size
