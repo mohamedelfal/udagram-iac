@@ -11,7 +11,7 @@
 
 
 ## Starter Code
-starter code for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
+Starter Code Link for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
 
 ## Project 2 : Deploy a high-availability web app using CloudFormation
 
@@ -36,12 +36,36 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 ```shell
 run-networks.sh create
 ```
-2. Upon step 1 successful completion, execute services infrastructure stack  
-Usage: 
+
+
+2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
 
 ```bash
-services.yaml create
+run-services.sh create
  ```
+ 
+ 3. To Update network infrastructure stack Usage:
+ 
+```shell
+run-networks.sh update
+```
+4. To Update services infrastructure stack Usage:
+
+```shell
+run-services.sh update
+```
+
+5. To Delete Stack Usage:
+
+```shell
+run-networks.sh delete
+```
+
+Or:
+
+```shell
+run-services.sh delete
+```
 
 ### Output
 Services stack outputs the final website `URL`.
