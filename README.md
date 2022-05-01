@@ -84,7 +84,7 @@ Services stack outputs the final website `URL`.
 http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
 
 ## Screenshot
-![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram-Page.jpg)
+![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg)
 
 ## GitHub Link
 https://github.com/mohamedelfal/Udacity-Advanced-Cloud-DevOps/
