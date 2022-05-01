@@ -49,7 +49,6 @@ Services stack outputs the final website `URL`.
 ### Files included:
 
 - [infrastructure-diagram-Lucidchart.png](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png) - infrastructure diagram
-- [`ELB-AutoScaling-VPC.template`](./Deploy-a-high-availability-web-app-using-CloudFormation/ELB-AutoScaling-VPC.template) - elastic load balancer auto scaling group example
 - [`network.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
 - [`network-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
 - [`services.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
