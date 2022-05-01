@@ -11,7 +11,7 @@
 
 
 ## Starter Code
-starter code for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
+Starter Code Link for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
 
 ## Project 2 : Deploy a high-availability web app using CloudFormation
 
@@ -28,52 +28,57 @@ So, choose an Instance size and Machine Image (AMI) that best fits this spec.
 Be sure to allocate at least 10GB of disk space so that you don't run into issues.
 
 ### Architecture
-![Architecture](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png)
+![Architecture](./infrastructure-diagram-Lucidchart.png)
 
 ### Running the project:
 
 1. To Execute network infrastructure stack Usage:
 ```shell
-run-networks.sh create
+./run-networks.sh create
 ```
+
 
 2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
 
-```bash
-run-services.sh create
+```shell
+./run-services.sh create
  ```
  
  3. To Update network infrastructure stack Usage:
  
 ```shell
-run-networks.sh update
+./run-networks.sh update
 ```
 4. To Update services infrastructure stack Usage:
 
 ```shell
-run-services.sh update
+./run-services.sh update
 ```
 
 5. To Delete Stack Usage:
 
 ```shell
-run-networks.sh delete
+./run-networks.sh delete
 ```
 
 Or:
 
 ```shell
-run-services.sh delete
+./run-services.sh delete
 ```
+
 ### Output
 Services stack outputs the final website `URL`.
 
 ### Files included:
 
-- [infrastructure-diagram-Lucidchart.png](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png) - infrastructure diagram
-- [`network.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
-- [`network-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
-- [`services.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
-- [`services-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/services-parameters.json) - Parameters file for the services infrastructure stack
-- [`run-networks.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-networks.sh) - bash script for managing network infrastructure stack
-- [`run-services.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-services.sh) - bash script for managing services infrastructure stack
+- [infrastructure-diagram-Lucidchart.png](./infrastructure-diagram-Lucidchart.png) - infrastructure diagram
+- [`network.yaml`](./network.yaml) - CloudFormation network infrastructure stack description.
+- [`network-parameters.json`](./network-parameters.json) - Parameters file for the network infrastructure stack
+- [`services.yaml`](./services.yaml) - CloudFormation services infrastructure stack description
+- [`services-parameters.json`](./services-parameters.json) - Parameters file for the services infrastructure stack
+- [`run-networks.sh`](./run-networks.sh) - bash script for managing network infrastructure stack
+- [`run-services.sh`](./run-services.sh) - bash script for managing services infrastructure stack
+
+# Url
+http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
