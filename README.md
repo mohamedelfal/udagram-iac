@@ -11,7 +11,7 @@
   * [Server Specs](#server-specs)
 * [Other Considerations](#4-other-considerations)
   * [Other Considerations](#other-considerations)
-* [Rubric ](#project-2-rubric-)
+* [Rubric ](#project-rubric-)
 
 * [**Solution**](#solution)
 * [Project 2 : Deploy a high-availability web app using CloudFormation](#project-2--deploy-a-high-availability-web-app-using-cloudformation)
@@ -129,15 +129,15 @@ Gather your files and submit them via a zipped folder or a GitHub link.
 
 Be sure you have completed all of the project requirements.
 
-Also, check your work against the [rubric](#project-2-rubric-) [here](./image/Project2Rubric.png) before submitting!
+Also, check your work against the [rubric](#project-rubric) [here](./project2rubric.jpg) before submitting!
 
 
 
 
 
 
-## [Project 2 Rubric ](./image/Project2Rubric.png)
-![Project 2 Rubric ](./image/Project2Rubric.png)
+## [Project Rubric ](./project2rubric.jpg)
+![Project Rubric ](./project2rubric.jpg)
  
 
 
