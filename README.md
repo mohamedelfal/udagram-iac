@@ -11,6 +11,7 @@
 * [Screenshot](#screenshot)
 * [Files Included](#files-included)
 * [GitHub Link](#github-link)
+* [Project Review result](#project-passed-heavy_check_mark)
 
 ## Starter Code
 Starter Code Link for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
