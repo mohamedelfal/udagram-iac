@@ -13,7 +13,7 @@
   * [Other Considerations](#other-considerations)
 * [Rubric ](#project-rubric-)
 
-* [**Solution**](#solution)
+* [**Solution**](#solution-)
 * [Project 2 : Deploy a high-availability web app using CloudFormation](#project-2--deploy-a-high-availability-web-app-using-cloudformation)
 * [Description](#description)
 * [Architecture](#architecture)
@@ -144,7 +144,7 @@ Also, check your work against the [rubric](#project-rubric) [here](./project2rub
 # [🔝](#udacity-advanced-cloud-devops-nanodegree-program-)
 
 
-# Solution 
+# [Solution ](./Deploy-a-high-availability-web-app-using-CloudFormation/)
 ## Project 2 : Deploy a high-availability web app using CloudFormation
 
 This project deploys web servers for a highly available web app using CloudFormation.  
