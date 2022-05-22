@@ -6,26 +6,27 @@
 <a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PROJECT_PASSED-brightgre.svg" /></a>
 
 ## Table of Contents 
-* [Project Introduction](#1-project-introduction)   
-  * [Starter Code](#starter-code)  
-* [Problem](#2-problem)  
-  * [Scenario](#scenario)  
-* [Project Requirements](#3-project-requirements)  
-  * [Server Specs](#server-specs)  
-* [Other Considerations](#4-other-considerations)  
-  * [Other Considerations](#other-considerations)  
+* [**Meets Specifications**](#meets-specifications)
+  * [Project Introduction](#1-project-introduction)   
+    * [Starter Code](#starter-code)  
+  * [Problem](#2-problem)  
+    * [Scenario](#scenario)  
+  * [Project Requirements](#3-project-requirements)  
+    * [Server Specs](#server-specs)  
+  * [Other Considerations](#4-other-considerations)  
+    * [Other Considerations](#other-considerations)  
 * [**Solution**](#solution)  
-* [Udagram](#udagram)  
-* [Description](#description)  
-* [Architecture](#architecture)  
-* [Running The Project](#running-the-project)  
-* [Output](#output)  
-* [Web App Url](#web-app-url)  
-* [Screenshot](#screenshot)  
-* [Review Result](#review-result) 
-* [Files Included](#files-included)  
+  * [Udagram](#udagram)  
+  * [Description](#description)  
+  * [Architecture](#architecture)  
+  * [Running The Project](#running-the-project)  
+  * [Output](#output)  
+  * [Web App Url](#web-app-url)  
+  * [Screenshot](#screenshot)  
+* [**Review Result**](#review-result) 
+* [**Files Included**](#files-included)  
  
-
+# [MEETS SPECIFICATIONS](./project2rubric.jpg)
 ## Udagram *(a high-availability web app using CloudFormation)*
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.  
 ## 1-Project Introduction 
@@ -106,7 +107,7 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 ## Architecture 
 ![Architecture](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png)
 
-## Running the project: 
+## Running the project 
 1. To Execute network infrastructure stack Usage:
 ```shell
 ./run-networks.sh create
@@ -139,10 +140,10 @@ http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.ht
 ## Screenshot 
 ![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg)  
 
-## Review Result
+## [Review Result](./review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png)
  <a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PROJECT_PASSED-brightgre.svg" /></a> 
  
-## Files included:
+## Files included
 - [network.yaml](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
 - [network-parameters.json](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
 - [services.yaml](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
