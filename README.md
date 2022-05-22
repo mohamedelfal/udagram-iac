@@ -22,8 +22,9 @@
 * [Output](#output)  
 * [Web App Url](#web-app-url)  
 * [Screenshot](#screenshot)  
+* [Review Result](#review-result) 
 * [Files Included](#files-included)  
-* [Review Result](#review-result)  
+ 
 
 ## Udagram *(a high-availability web app using CloudFormation)*
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.  
@@ -136,23 +137,25 @@ Services stack outputs the final website [`URL`](http://highl-webap-1eeldxiwypcg
 ## Web App Url 
 http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
 ## Screenshot 
-![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg)
+![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg)  
 
+## Review Result
+ <a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PROJECT_PASSED-brightgre.svg" /></a> 
+ 
 ## Files included:
-- [`network.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
-- [`network-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
-- [`services.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
-- [`services-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/services-parameters.json) - Parameters file for the services infrastructure stack
-- [`run-networks.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-networks.sh) - bash script for managing network infrastructure stack
-- [`run-services.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-services.sh) - bash script for managing services infrastructure stack
-- [`Url.txt`](./Deploy-a-high-availability-web-app-using-CloudFormation/Url.txt) - a text file contains the url link to *Udagram* app website
+- [network.yaml](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
+- [network-parameters.json](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
+- [services.yaml](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
+- [services-parameters.json](./Deploy-a-high-availability-web-app-using-CloudFormation/services-parameters.json) - Parameters file for the services infrastructure stack
+- [run-networks.sh](./Deploy-a-high-availability-web-app-using-CloudFormation/run-networks.sh) - bash script for managing network infrastructure stack
+- [run-services.sh](./Deploy-a-high-availability-web-app-using-CloudFormation/run-services.sh) - bash script for managing services infrastructure stack
+- [Url.txt](./Deploy-a-high-availability-web-app-using-CloudFormation/Url.txt) - a text file contains the url link to *Udagram* app website
 - [infrastructure-diagram-Lucidchart.png](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png) - infrastructure diagram
 - [work progress screenshot](./Deploy-a-high-availability-web-app-using-CloudFormation/work%20progress) - Screenshots for work progress
 - [final website screenshot](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg) - Screenshot for Udagram app website
 
-## Review Result
- <a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PROJECT_PASSED-brightgre.svg" /></a> 
-<!--![passed](./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png)-->
+
+
 # 
 <p align="center">
  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
