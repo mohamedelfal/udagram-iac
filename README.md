@@ -109,27 +109,27 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 
 ## Running the project 
 1. To Execute network infrastructure stack Usage:
-```shell
+```bash
 ./run-networks.sh create
 ```
 2. Upon step 1 successful completion, execute services infrastructure stack Usage: 
-```shell
+```bash
 ./run-services.sh create
  ```
  3. To Update network infrastructure stack Usage:
-```shell
+```bash
 ./run-networks.sh update
 ```
 4. To Update services infrastructure stack Usage:
-```shell
+```bash
 ./run-services.sh update
 ```
 5. To Delete Stack Usage:
-```shell
+```bash
 ./run-networks.sh delete
 ```
 Or:
-```shell
+```bash
 ./run-services.sh delete
 ```
 
