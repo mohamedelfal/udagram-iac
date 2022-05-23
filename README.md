@@ -3,7 +3,7 @@
 
 #  
 
-<a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PROJECT_PASSED-brightgre.svg" /></a>
+<a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PASSED-brightgre?style=plastic&logo=Udacity" /></a>
 
 ## Table of Contents 
 * [**Meets Specifications**](#meets-specifications)
