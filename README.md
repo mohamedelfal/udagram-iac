@@ -4,6 +4,9 @@
 #  
 
 <a rel="Udacity" href="./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png"><img alt="Udacity Project"  src="https://img.shields.io/badge/Udacity-PASSED-brightgre?style=plastic&logo=Udacity" /></a>
+[![Amazon_AWS](https://img.shields.io/badge/Amazon_AWS-orange?style=plastic&logo=Amazon%20aws)](https://aws.amazon.com/)
+[![CloudFormation](https://img.shields.io/badge/CloudFormation-orange?style=plastic&logo=Amazon%20aws)](https://aws.amazon.com/cli/)
+[![GitHub top language](https://img.shields.io/github/languages/top/mohamedelfal/Udacity-Advanced-Cloud-DevOps)](https://github.com/mohamedelfal/Udacity-Advanced-Cloud-DevOps)
 
 ## Table of Contents 
 * [**Meets Specifications**](#meets-specifications)
